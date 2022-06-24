@@ -33,6 +33,7 @@ jobs:
       run: |
         node bin/download.js ${GOOGLE_SHEET_URL} ${GOOGLE_SHEET_API_KEY}
         node bin/config.js
+        echo ${GEOLONIA_API_KEY}
 
     - name: Build PWA Assets
       run: |
