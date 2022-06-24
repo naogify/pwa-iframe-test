@@ -20,6 +20,7 @@ jobs:
     env:
       GOOGLE_SHEET_API_KEY: ${{ secrets.GOOGLE_SHEET_API_KEY }}
       GOOGLE_SHEET_URL: ${{ secrets.GOOGLE_SHEET_URL }}
+      GEOLONIA_API_KEY: ${{ secrets.GEOLONIA_API_KEY }}
     steps:
     - uses: actions/checkout@v2
     - uses: actions/setup-node@v1
